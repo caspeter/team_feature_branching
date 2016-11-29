@@ -2,23 +2,38 @@ body {
   font-size: 16px;
   font-family: "Source Sans Pro", "Arial", sans-serif;
   display: flex;
+  flex-direction: column;
 }
 html, body, main {
  height: 100%;
 }
 main {
-  align-self: center;
   background-color: #A5461A;
+  flex-wrap: wrap;
+}
+ol {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  justify-content: center;
+  padding-left: 41.5%;
+  font-size: 40px;
+  color: #14304D;
+}
+
+li {
+  margin-left: 30px;
 }
 
 header{
+  height: 75px;
   background-color: #CF6323;
 }
 
 footer {
+  height: 100px;
   background-color: #E58262;
-}
-
-header, footer {
- flex-basis: 100%;
 }
