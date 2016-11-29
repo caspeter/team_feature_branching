@@ -22,7 +22,3 @@ footer {
 header, footer {
  flex-basis: 100%;
 }
-body {
-  flex-wrap: wrap;
-  align-items: space-between;
-}
