@@ -1,7 +1,6 @@
 body {
   font-size: 16px;
   font-family: "Source Sans Pro", "Arial", sans-serif;
-  background-color: #A5461A;
   display: flex;
 }
 html, body, main {
@@ -9,6 +8,15 @@ html, body, main {
 }
 main {
   align-self: center;
+  background-color: #A5461A;
+}
+
+header{
+  background-color: #CF6323;
+}
+
+footer {
+  background-color: #E58262;
 }
 
 header, footer {
